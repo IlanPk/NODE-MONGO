@@ -1,0 +1,23 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+exports.ERROR_MESSAGES = exports.HTTP_STATUS = void 0;
+exports.HTTP_STATUS = {
+    OK: 200,
+    CREATED: 201,
+    BAD_REQUEST: 400,
+    UNAUTHORIZED: 401,
+    FORBIDDEN: 403,
+    NOT_FOUND: 404,
+    CONFLICT: 409,
+    INTERNAL_SERVER_ERROR: 500,
+};
+exports.ERROR_MESSAGES = {
+    INVALID_CREDENTIALS: 'Invalid email or password',
+    USER_EXISTS: 'User already exists',
+    USER_NOT_FOUND: 'User not found',
+    POST_NOT_FOUND: 'Post not found',
+    UNAUTHORIZED: 'Unauthorized access',
+    INVALID_TOKEN: 'Invalid token',
+    TOKEN_EXPIRED: 'Token has expired',
+};
+//# sourceMappingURL=constants.js.map
