@@ -1,0 +1,17 @@
+שלום עבודת הגשה
+Project Business Card API
+
+אילן פנקר 
+
+מבקש ליצור קובץ
+.env
+.env.example
+
+ולהכניס לשם את הרישומים הבאים
+PORT=3000
+MONGODB_URI=mongodb://localhost:27017/cms-api
+JWT_SECRET=your_jwt_secret_key_here_change_in_production
+NODE_ENV=development
+LOG_FORMAT=:combined
+
+תודה
